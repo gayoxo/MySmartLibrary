@@ -525,6 +525,31 @@ font-family: mnemosine;
   width: 15%;
   min-width:100px;
 }
+
+.colecciones_smart_list{
+  text-align: left;
+}
+
+a.colecciones_smart_library {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+}
+
+a.colecciones_smart_library:hover{
+  color:#31b49d;
+}
+
+p.colecciones_titulo {
+  text-decoration: none;
+  font-size: 3em;
+}
+
+.colecciones_smart{
+  margin: 2em 20%;
+}
+
+
  /*
 ul .menustyle{
     list-style-image: url('sqpurple.gif');
