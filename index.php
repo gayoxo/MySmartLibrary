@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <title>Mnemosine</title>
+    <title>My Smart Library</title>
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="responsive-nav.css">
 	<script src="responsive-nav.js"></script>
