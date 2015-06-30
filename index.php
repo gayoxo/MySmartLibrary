@@ -40,7 +40,7 @@
 		<p class="colecciones_titulo"> Colecciones Actuales<p>
 		
 		<div class="colecciones_smart_list">
-		<a class="colecciones_smart_library" href="http://repositorios.fdi.ucm.es/mnemosine/">Mnemosine</a>
+		<a class="colecciones_smart_library" href="http://repositorios.fdi.ucm.es/mnemosine/" target="_blank">Mnemosine</a>
 		</div>
 	</div> 
 	<script>
