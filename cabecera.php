@@ -4,7 +4,7 @@
 	</div> -->
 	  
 	<a href="<?php echo $LinkAtras; ?>"> 
-			<img src="imagenes/red.png" width="300" height="300" class="Bannericon" alt=""> 
+			<img src="imagenes/logoA.png" width="300" height="300" class="Bannericon" alt=""> 
 			 
 		</a>	
 	</div>

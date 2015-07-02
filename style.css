@@ -33,7 +33,7 @@ img.icono_en_grupo{
 
 p.justifiedtext_engrupo{
 font-family: diddot;
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: justify;
   margin: 1em;
 }
@@ -41,6 +41,7 @@ font-family: diddot;
 img.icono_coleccion
 {
 width: 50%;
+  max-width: 200px;
 }
 
 .filtro {
@@ -215,7 +216,8 @@ span.Descripcion_documento_buscador_valor {
   }
 
 .zona_icono{
-background-image: url("imagenes/redes2.png");
+/*background-image: url("imagenes/redes2.png");*/
+background-image: url("imagenes/fond2.jpg");
 background-size: 100% 100%;
     background-repeat: no-repeat;
  background-attachment: fixed;
@@ -555,7 +557,7 @@ font-family: mnemosine;
 
 .colecciones_smart_list_elemnt{
   text-align: center;
-    width: 33%;
+   /* width: 33%;*/
 }
 
 a.colecciones_smart_library {
@@ -569,8 +571,17 @@ a.colecciones_smart_library:hover{
 }
 
 p.colecciones_titulo {
+  font-family: diddot;
   text-decoration: none;
   font-size: 3em;
+  font-weight:bold;
+}
+
+h1.titulo{
+font-family: diddot;
+  text-decoration: none;
+  font-size: 3em;
+  font-weight:bold;
 }
 
 .colecciones_smart{
