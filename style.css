@@ -22,6 +22,27 @@
 }
 
 
+.grupo{
+width: 33%;
+float: left;
+}
+
+img.icono_en_grupo{
+  width: 50%;
+}
+
+p.justifiedtext_engrupo{
+font-family: diddot;
+  font-size: 1.1em;
+  text-align: justify;
+  margin: 1em;
+}
+
+img.icono_coleccion
+{
+width: 50%;
+}
+
 .filtro {
   float: left;
    margin-right: 0.5%; 
@@ -447,6 +468,7 @@ p.justifiedtext {
   margin-top: 1em;
   font-family: diddot;
   font-size: 1.1em; 
+  float: left;
 }
 
 .bloque {
@@ -527,7 +549,13 @@ font-family: mnemosine;
 }
 
 .colecciones_smart_list{
-  text-align: left;
+	overflow: auto;
+	max-height: 400px;
+}
+
+.colecciones_smart_list_elemnt{
+  text-align: center;
+    width: 33%;
 }
 
 a.colecciones_smart_library {
@@ -546,7 +574,7 @@ p.colecciones_titulo {
 }
 
 .colecciones_smart{
-  margin: 2em 20%;
+  margin: 2em 10%;
 }
 
 
