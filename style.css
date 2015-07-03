@@ -30,11 +30,17 @@
  
 }
 
-*/
+
 
 @font-face {
        font-family: "diddot";
        src: url('fuentes/Lucida Console.ttf') format("truetype"); 
+ 
+}
+*/
+@font-face {
+       font-family: "diddot";
+       src: url('fuentes/ufonts.com_courier-new.ttf') format("truetype"); 
  
 }
 
