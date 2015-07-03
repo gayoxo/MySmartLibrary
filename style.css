@@ -10,17 +10,88 @@
  
 }
 
+/*
 @font-face {
        font-family: "diddot";
        src: url('fuentes/ufonts.com_didot.ttf') format("truetype"); 
  
 }
 
+
+@font-face {
+       font-family: "diddot";
+       src: url('fuentes/Baskerville.ttc') format("truetype"); 
+ 
+}
+
+@font-face {
+       font-family: "diddot";
+       src: url('fuentes/Cambria.ttf') format("truetype"); 
+ 
+}
+
+*/
+
+@font-face {
+       font-family: "diddot";
+       src: url('fuentes/Lucida Console.ttf') format("truetype"); 
+ 
+}
+
+
 @font-face {   
   font-family: "Kimberley";   
   src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype"); 
 }
 
+
+a.footer_somos_link {
+text-decoration:none;
+ color: black;
+   font-size: 0.8em;
+}
+
+a.footer_somos_link:hover {
+text-decoration:none;
+ color:#31b49d;
+   font-size: 0.8em;
+}
+
+.footerContent{
+  position: relative;
+  overflow: hidden;
+  display: table;
+}
+
+.footer_elemnt
+{
+  /* float: left; */
+  width: 12%;
+  padding: 0 1em;
+  /* margin: 0em 8%; */
+  display: table-cell;
+  vertical-align: middle;}
+
+.footer_elemnt_right
+{
+  width: 17%;
+  margin: 0em 2%;
+  text-align: right;
+  padding: 0 1em;
+  display: table-cell;
+  vertical-align: middle;
+    min-width: 138px;
+}
+
+.footer{
+margin: 1em 10% 2em;
+}
+
+
+img.cabecera_smart_library_image{
+width: 175px;
+  margin: -8px;
+}
 
 .grupo{
 width: 33%;
@@ -36,6 +107,7 @@ font-family: diddot;
   font-size: 1em;
   text-align: justify;
   margin: 1em;
+    line-height: 1.5em;
 }
 
 img.icono_coleccion
@@ -576,6 +648,10 @@ a.colecciones_smart_library {
 
 a.colecciones_smart_library:hover{
   color:#31b49d;
+}
+
+p.Colecciones_texto_Cabecera, p.mysmartlibraryproyect_texto_Cabecera, p.quienes_somos_texto_Cabecera, p.zonaIndexCentro, p.buscador_avanzado_texto_Cabecera, p.bases_legales_texto_Cabecera{
+font-size: 2em;
 }
 
 p.colecciones_titulo {
