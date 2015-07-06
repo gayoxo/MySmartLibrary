@@ -57,5 +57,7 @@
 	<script>
 	  var nav = responsiveNav(".nav-collapse");
 	</script>
+	
+	<?php include_once("analyticstracking.php") ?>
   </body>
 </html>
